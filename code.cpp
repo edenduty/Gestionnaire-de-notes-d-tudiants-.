@@ -2,7 +2,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
-
+#include <time.h>
 void identification_age(double input) {
     double conservateur, a;
     conservateur = input;
@@ -58,7 +58,8 @@ void ajouter_informations_etudiant(char *classe1a, char *moyenne_classe1a) {
 
     while (strcmp(arret_informations1, arret_informations2) == 0) {
         for (int i = debut_for1; i < debut_for1 + 1; i++) {
-            identifiant[i] = 1000000 + i;
+            	srand(time(NULL));
+            identifiant[i] = nombre_aleatoire(i,10000)+i+age[i]+debut_for+100000;
             printf("Saississez les informations de l'étudiant.\n");
             printf("Age: ");
             scanf("%lf", &age[i]);
