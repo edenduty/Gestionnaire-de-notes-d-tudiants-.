@@ -2,7 +2,7 @@
 Description
 Ce programme permet de gérer les informations des étudiants dans une classe, telles que leur âge, nom, matières, coefficients, et notes. Il permet également de calculer la moyenne de chaque étudiant et d'afficher les informations d'un étudiant ou d'une classe en particulier.
 Les fonctionnalités disponibles incluent :
-1.Ajouter des informations pour un étudiant (nom, âge, matières, notes).
+1.Ajouter des informations pour un étudiant (nom, âge,identifiant).
 2.Afficher la liste des étudiants avec leurs moyennes.
 3.Afficher la moyenne d'un étudiant spécifique.
 4.Afficher les informations de tous les étudiants.
@@ -34,7 +34,7 @@ Le programme utilise des bibliothèques standard de C :
 stdio.h pour les entrées/sorties.
 string.h pour manipuler des chaînes de caractères.
 stdlib.h pour la gestion de la mémoire et des conversions.
-math.h pour les calculs mathématiques (comme l'arrondi des valeurs).
+math.h pour les calculs mathématiques 
 
 
 Membres du gropue :
