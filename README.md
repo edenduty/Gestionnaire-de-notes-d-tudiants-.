@@ -42,4 +42,5 @@ ADJILE Daren
 AFFOUKOU Baruch
 SOGNON Prunelle
 GBEDAYI Hans
-HOUNDJAHOUE Manediel.
+HOUNDJAHOUE Manediel
+AMORIN Mohamed.
