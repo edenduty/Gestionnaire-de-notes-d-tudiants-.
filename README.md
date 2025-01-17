@@ -35,3 +35,11 @@ Le programme utilise des bibliothèques standard de C :
 string.h pour manipuler des chaînes de caractères.
 stdlib.h pour la gestion de la mémoire et des conversions.
 math.h pour les calculs mathématiques (comme l'arrondi des valeurs).
+
+
+Membres du gropue :
+ADJILE Daren
+AFFOUKOU Baruch
+SOGNON Prunelle
+GBEDAYI Hans
+HOUNDJAHOUE Manediel.
