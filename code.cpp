@@ -67,7 +67,7 @@ void ajouter_informations_etudiant(char *classe1a, char *moyenne_classe1a) {
             identification_age(age[i]);
             printf("Nom et prénoms: ");
             fgets(nom[i], 200, stdin);
-identifiant[i] = nombre_aleatoire(i,10000)+i+age[i]+debut_for+100000;
+            identifiant[i] = nombre_aleatoire(i,10000)+i+age[i]+debut_for+100000;
             FILE *fichier = fopen(classe1a, "a");
             fprintf(fichier, "Age:%lf   ", age[i]);
             fprintf(fichier, "ID:%d   ", identifiant[i]);
